@@ -32,7 +32,7 @@ type ServerInfo struct {
 
 	// Seems to always be 65534
 	// TODO: find out meaning of value
-	Gmsindex   uint32
+	Gmsindex   int32
 	Message    string
 	AppId      uint64
 	GameDir    string
